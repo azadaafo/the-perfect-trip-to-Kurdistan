@@ -1,0 +1,144 @@
+#title {
+	color: teal;
+	font-size: 50px;
+	text-align: center;
+	padding-bottom: 85px;
+}
+
+#image,
+#fruit,
+#dogs {
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 630px;
+	height: auto;
+}
+
+#main {
+	font-family: serif;
+	text-align: center;
+	background-color: aliceblue;
+}
+
+#nav-bar a {
+	font-size: 22px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	border: dotted 3px pink;
+	display: inline-block;
+	margin-bottom: 100px;
+}
+
+p,
+.list {
+	font-size: 18px;
+	text-align: justify;
+	padding-left: 350px;
+	padding-right: 350px;
+}
+
+.list {
+	padding-left: 600px;
+}
+
+@media all and (min-width: 481px) and (max-width: 800px) {
+	#title {
+		color: teal;
+		font-size: 30px;
+		text-align: center;
+		padding-bottom: 65px;
+		margin-top: 50px;
+	}
+	#image,
+	#fruit,
+	#dogs {
+		position: relative;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		max-width: 430px;
+		height: auto;
+	}
+	#main {
+		font-family: serif;
+		text-align: center;
+		background-color: aliceblue;
+	}
+	#nav-bar a {
+		font-size: 18px;
+		padding-left: 30px;
+		padding-right: 30px;
+		text-decoration: none;
+		font-weight: bold;
+		border: dotted 3px pink;
+		display: inline-block;
+		margin-bottom: 100px;
+	}
+	p,
+	.list,
+	h5 {
+		font-size: 16px;
+		text-align: justify;
+		padding-left: 150px;
+		padding-right: 150px;
+	}
+	.list {
+		padding-left: 335px;
+	}
+}
+
+@media all and (max-width: 480px) {
+	#title {
+		color: teal;
+		font-size: 20px;
+		text-align: center;
+		padding-bottom: 60px;
+		margin-top: 50px;
+	}
+	#image,
+	#fruit,
+	#dogs {
+		position: relative;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 500%;
+		max-width: 280px;
+		height: auto;
+	}
+	#main {
+		font-family: serif;
+		text-align: center;
+		background-color: aliceblue;
+	}
+	#nav-bar a {
+		font-size: 12px;
+		padding: auto;
+		text-decoration: none;
+		font-weight: bold;
+		border: dotted 1px pink;
+		display: inline-block;
+		margin-bottom: 70px;
+	}
+	p,
+	.list,
+	h5 {
+		font-size: 12px;
+		text-align: justify;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.list {
+		padding-left: 65px;
+	}
+	h2,
+	h3 {
+		font-size: 15px;
+	}
+}
